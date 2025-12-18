@@ -1,3 +1,7 @@
 @use "./base.scss";
-
+/* 图片圆角 */
+img {
+  border-radius: 8px; /* 数字越大越圆 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 加一点淡淡的阴影 */
+}
 // put your custom CSS here!
