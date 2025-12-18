@@ -28,16 +28,16 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-        light: "#ffffff",      // 纯白背景
-        lightgray: "#f0f0f0",  // 极浅的灰色分割线
-        gray: "#888888",       // 辅助信息
-        darkgray: "#2e2e2e",   // 正文（接近纯黑，清晰）
-        dark: "#000000",       // 标题（纯黑）
-        secondary: "#2c64ff",  // 鲜艳的克莱因蓝（链接）
-        tertiary: "#00bfff",   // 鼠标悬停色
-        highlight: "rgba(44, 100, 255, 0.15)", // 高亮背景
-        textHighlight: "#fff23688",
+       lightMode: {
+          light: "#F5F7F2",      // 极浅的豆沙绿背景（公认最护眼）
+          lightgray: "#E2E8E0",  // 边框
+          gray: "#6A7364",       // 辅助字
+          darkgray: "#2D3329",   // 正文（接近黑色但更柔和，对比度极高）
+          dark: "#1A1F18",       // 标题（重黑色）
+          secondary: "#386641",  // 森林绿（链接色，非常稳重）
+          tertiary: "#6A994E",   // 悬停色
+          highlight: "rgba(106, 153, 78, 0.15)",
+          textHighlight: "#fff23688",
         },
         darkMode: {
           light: "#161618",
