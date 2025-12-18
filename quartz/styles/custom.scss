@@ -20,4 +20,24 @@ a:hover {
 footer {
   display: none !important;
 }
+
+/* 让左侧边栏更有层次感 */
+.left.sidebar {
+  background-color: rgba(0,0,0,0.02);
+  border-right: 1px solid var(--lightgray);
+  padding-left: 1rem;
+}
+
+/* 优化标题的粗细，让它更醒目 */
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 1.5rem;
+}
+
+/* 让关系图谱（右侧那个圈）稍微变大一点点 */
+.graph {
+  border: 1px solid var(--lightgray);
+  border-radius: 12px;
+}
 // put your custom CSS here!
