@@ -1,7 +1,23 @@
 @use "./base.scss";
+
 /* 图片圆角 */
 img {
   border-radius: 8px; /* 数字越大越圆 */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 加一点淡淡的阴影 */
+}
+
+/* 链接悬停动画 */
+a {
+  transition: all 0.2s ease;
+}
+a:hover {
+  text-decoration: none;
+  background-color: var(--highlight); /* 加上高亮背景 */
+  border-radius: 4px;
+}
+
+/* 隐藏页脚的 Quartz 声明 */
+footer {
+  display: none !important;
 }
 // put your custom CSS here!
