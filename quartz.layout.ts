@@ -44,6 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes({ title: "最新文章", limit: 5 }), // <--- 加上这一行！
   ],
 }
 
