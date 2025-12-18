@@ -40,4 +40,27 @@ h1, h2, h3 {
   border: 1px solid var(--lightgray);
   border-radius: 12px;
 }
+
+/* --- 关系图高对比度优化 (专为色弱优化) --- */
+
+.graph {
+  /* 1. 强制加深线条颜色 */
+  /* 把原本看不清的浅灰绿，改成深一点的草绿色 */
+  --lightgray: #8A9A85 !important; 
+
+  /* 2. 强制加深节点(圆点)颜色 */
+  /* 把圆点改成深褐色，一眼就能看见 */
+  --gray: #4A5240 !important; 
+
+  /* 3. 让背景稍微白一点，增加反差 */
+  background-color: rgba(255, 255, 255, 0.4);
+  
+  /* 4. 加粗边框，让图谱的方框更明显 */
+  border: 2px solid #8A9A85 !important;
+}
+
+/* 如果你想让里面的连线更粗一点，可以加上这个 */
+.graph line {
+  stroke-width: 1.5px; /* 默认通常是 1px */
+}
 // put your custom CSS here!
