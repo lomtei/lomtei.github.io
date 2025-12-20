@@ -1,6 +1,6 @@
 ---
 share: true
-title: 📘 Obsidian + Quartz 博客维护与重装指南
+title: Obsidian + Quartz 博客维护与重装指南
 date: 2025-12-19 01:00
 tags:
 ---
